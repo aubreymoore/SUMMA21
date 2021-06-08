@@ -13,7 +13,7 @@ I first got interested in population dynamics models way back in the late 70s wh
 
 **Resources**
 
-* [Lecture slides: How I got interested in modeling population dynamics](https://aubreymoore.github.io/SUMMA21/reveal.js/my_interest_in_modeling.html) (html; reveal.js)
+* Lecture slides: [How I got interested in modeling population dynamics](https://aubreymoore.github.io/SUMMA21/reveal.js/my_interest_in_modeling.html) (html; reveal.js)
 * [Lotka-Volterra Model](https://aubreymoore.github.io/SUMMA21/Lotka-Volterra-Model.html)  (html; Jupyter notebook; Python)
 * [Interactive Version of the Lotka-Voltera Model](https://mybinder.org/v2/gh/aubreymoore/SUMMA21/HEAD)  (Jupyter Notebook; Python; Binder)
   * EXPERIMENTAL: Click on the link above; wait for the Binder server to spin up; click on **lotka-volterra.ipynb**. 
@@ -23,8 +23,8 @@ A fairly comprehensive overview of coconut rhinoceros beetle biology and (failed
 
 **Resources**
 
-* [Lecture slides: Coconut Rhinoceros Beetle Biology: Know Your Enemy](https://raw.githubusercontent.com/aubreymoore/CRB-CNMI/main/CRB-Biology.pdf) (PDF)
-* [Coconut Rhinoceros Beetle Causes an Ecological Catastrophe on Guam](https://github.com/aubreymoore/2019-Extension-Internship-CRB-Presentation/raw/master/2019-CRB-catastrophy-presentation.pdf) (PDF)
+* Lecture slides: [Coconut Rhinoceros Beetle Biology: Know Your Enemy](https://raw.githubusercontent.com/aubreymoore/CRB-CNMI/main/CRB-Biology.pdf) (PDF)
+* Lecture slides: [Coconut Rhinoceros Beetle Causes an Ecological Catastrophe on Guam](https://github.com/aubreymoore/2019-Extension-Internship-CRB-Presentation/raw/master/2019-CRB-catastrophy-presentation.pdf) (PDF)
 
 ## Modelling Cocount Rhinoceros Beetle Population Dynamics (1h)
 Modeling population growth of CRB using the exponential and logistic models.
@@ -33,8 +33,8 @@ Modeling population growth of CRB using the exponential and logistic models.
 
 **Note: Some links on the following pages need to be fixed.**
 
-* [AL/BI 345: Insect Population Dynamics 1](https://aubreymoore.github.io/ALBI-345/output/blog/lecture14d/)
-* [AL/BI 345: Insect Population Dynamics 2](https://aubreymoore.github.io/ALBI-345/output/blog/lecture14dd/)
+* Lecture slides: [AL/BI 345: Insect Population Dynamics 1](https://aubreymoore.github.io/ALBI-345/output/blog/lecture14d/)
+* Lecture slides: [AL/BI 345: Insect Population Dynamics 2](https://aubreymoore.github.io/ALBI-345/output/blog/lecture14dd/)
 
 ## A Conceptual Model which Explains How a Typhoons May Trigger Longlasting Changes in CRB Population Dynamics (0.5h)
 I will outline a conceptual model and ideas on how to convert this to a methematical model and simulation model which explains how typhoons may cause a semipermanent change in CRB population dynamics.
