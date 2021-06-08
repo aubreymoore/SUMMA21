@@ -4,7 +4,7 @@ This repository stores resources for guest lectures I prepared for the SUMMA21 p
 
 GitHub pages for this repository are available at https://aubreymoore.github.io/SUMMA21/.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aubreymoore/SUMMA21/HEAD)
+Jupyter notebooks can be run interactively on Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aubreymoore/SUMMA21/HEAD)
 
 # Lectures
 
