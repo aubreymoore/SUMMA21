@@ -13,7 +13,7 @@ I first got interested in population dynamics models way back in the late 70s wh
 
 **Resources**
 
-* [Lecture slides (reveal.js): ** How I got interested in modeling population dynamics **](https://aubreymoore.github.io/SUMMA21/reveal.js/my_interest_in_modeling.html)
+* How I got interested in modeling population dynamics [Lecture slides (reveal.js)](https://aubreymoore.github.io/SUMMA21/reveal.js/my_interest_in_modeling.html)
 * [Lotka-Volterra Model](https://aubreymoore.github.io/SUMMA21/Lotka-Volterra-Model.html)
 
 ## Coconut Rhinoceros Beetle Biology (1h)
