@@ -13,17 +13,17 @@ I first got interested in population dynamics models way back in the late 70s wh
 
 **Resources**
 
-* [Lecture slides (html; reveal.js)](https://aubreymoore.github.io/SUMMA21/reveal.js/my_interest_in_modeling.html)
-* [Lotka-Volterra Model (html; Jupyter notebook; Python)](https://aubreymoore.github.io/SUMMA21/Lotka-Volterra-Model.html)
-* [Interactive Version of the Lotka-Voltera Model (Jupyter Notebook; Python; Binder)](https://hub.gke2.mybinder.org/user/aubreymoore-summa21-nk7bx8gc/notebooks/Lotka-Volterra-Model.ipynb)
+* [Lecture slides: How I got interested in population dynamics models](https://aubreymoore.github.io/SUMMA21/reveal.js/my_interest_in_modeling.html) (html; reveal.js)
+* [Lotka-Volterra Model](https://aubreymoore.github.io/SUMMA21/Lotka-Volterra-Model.html)  (html; Jupyter notebook; Python)
+* [Interactive Version of the Lotka-Voltera Model](https://hub.gke2.mybinder.org/user/aubreymoore-summa21-nk7bx8gc/notebooks/Lotka-Volterra-Model.ipynb)  (Jupyter Notebook; Python; Binder)
 
 ## Coconut Rhinoceros Beetle Biology (1h)
 A fairly comprehensive overview of coconut rhinoceros beetle biology and (failed) attempts to control this pest on Guam.
 
 **Resources**
 
-* [Coconut Rhinoceros Beetle Biology: Know Your Enemy](https://raw.githubusercontent.com/aubreymoore/CRB-CNMI/main/CRB-Biology.pdf)
-* [Coconut Rhinoceros Beetle Causes an Ecological Catastrophe on Guam](https://github.com/aubreymoore/2019-Extension-Internship-CRB-Presentation/raw/master/2019-CRB-catastrophy-presentation.pdf)
+* [Lecture slides: Coconut Rhinoceros Beetle Biology: Know Your Enemy](https://raw.githubusercontent.com/aubreymoore/CRB-CNMI/main/CRB-Biology.pdf) (PDF)
+* [Coconut Rhinoceros Beetle Causes an Ecological Catastrophe on Guam](https://github.com/aubreymoore/2019-Extension-Internship-CRB-Presentation/raw/master/2019-CRB-catastrophy-presentation.pdf) (PDF)
 
 ## Modelling Cocount Rhinoceros Beetle Population Dynamics (1h)
 Modeling population growth of CRB using the exponential and logistic models.
