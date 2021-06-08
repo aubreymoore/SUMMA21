@@ -8,12 +8,12 @@ GitHub pages for this repository are available at https://aubreymoore.github.io/
 
 # Lectures
 
-## How I got interested in population dynamics models (0.5h)
+## How I got interested in modeling population dynamics (0.5h)
 I first got interested in population dynamics models way back in the late 70s when I used a programmable calculator to play with the Lotka-Volterra model. Results from a simulated pesticide application were totally unexpected yet informative.
 
 **Resources**
 
-* [Lecture slides: How I got interested in population dynamics models](https://aubreymoore.github.io/SUMMA21/reveal.js/my_interest_in_modeling.html) (html; reveal.js)
+* [Lecture slides: How I got interested in modeling population dynamics](https://aubreymoore.github.io/SUMMA21/reveal.js/my_interest_in_modeling.html) (html; reveal.js)
 * [Lotka-Volterra Model](https://aubreymoore.github.io/SUMMA21/Lotka-Volterra-Model.html)  (html; Jupyter notebook; Python)
 * [Interactive Version of the Lotka-Voltera Model](https://hub.gke2.mybinder.org/user/aubreymoore-summa21-nk7bx8gc/notebooks/Lotka-Volterra-Model.ipynb)  (Jupyter Notebook; Python; Binder)
 
