@@ -1,5 +1,7 @@
 # SUMMA21
 
+# Hi Guys.
+
 This repository stores resources for guest lectures I prepared for the SUMMA21 program at the University of Guam.
 
 GitHub pages for this repository are available at https://aubreymoore.github.io/SUMMA21/.
