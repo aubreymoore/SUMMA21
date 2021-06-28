@@ -1,0 +1,24 @@
+%% !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
+
+\documentclass[letterpaper]{article}
+
+\usepackage[pdf]{graphviz} %needed package with pdf option
+\usepackage{fullpage}
+
+\begin{document}
+
+My graph:
+
+\digraph{conventional}{
+  rankdir=TB;
+  "conceptual model" -> "mathematical model" -> "computer model";
+}
+
+\digraph{netlogo}{
+	rankdir=TB;
+	"conceptual model" -> "computer model";
+}
+
+
+\end{document}
+
