@@ -1,7 +1,16 @@
 ;extensions [palette]
 
+breed [eggs egg]
+breed [larvae larva]
+breed [pupae pupa]
+breed [adults adult]
+
+eggs-own   [female?]
+larvae-own [female?]
+pupae-own  [female?]
+adults-own [female?]
+
 patches-own [food]
-turtles-own [age]
 
 to setup
   clear-all
@@ -34,42 +43,62 @@ end
 
 to go
   tick
-  age-turtles
-  kill-old-turtles
-  if ticks >= 80 [stop]
-  if ticks = 20 [initiate-invasion]
+
+  if ticks = 20  [initiate-invasion]
+  if ticks = 200 [stop]
 
   decay-food
   add-food
+
+  ; At the start of a generation there should be only adults
+
+  move-adults
+  lay-eggs
+  kill-adults
+
+  convert-eggs-to-larvae
   feed-larvae
-  move-turtles
-  reproduce
+  convert-larvae-to-pupae
+  convert-pupae-to-adults
 
   colorcode-patches
-  ;tick
 end
 
 ;------------------------------
 ; FUNCTIONS CALLED BY go
 ;------------------------------
 
-to age-turtles
-  ask turtles[
-    set age age + 1
+to convert-eggs-to-larvae
+  ask eggs[
+    if random-float 1 > EGG_SURVIVAL [ die ]
+    set breed larvae
   ]
 end
 
-to kill-old-turtles
-  ask turtles with [age > 1][
-    die
+to convert-larvae-to-pupae
+  ask larvae[
+    if random-float 1 > LARVAL_SURVIVAL [ die ]
+    set breed pupae
   ]
+end
+
+to convert-pupae-to-adults
+  ask pupae[
+    if random-float 1 > PUPAL_SURVIVAL [ die ]
+    set breed adults
+  ]
+end
+
+to kill-adults
+  ask adults [ die ]
 end
 
 to initiate-invasion
-  create-turtles 1 [
-  set xcor -15
-  set ycor 0
-  set color black
+  create-adults 1 [
+    set female? true
+    set xcor -15
+    set ycor 0
+    set color black
   ]
 end
 
@@ -85,10 +114,10 @@ to add-food
   ]
 end
 
-to move-turtles
+to move-adults
   ; move to nearest patch in a random direction
-  ; if the new patch is in the ocen, then return to the original patch
-  ask turtles [
+  ; if the new patch is in the ocean, then return to the original patch
+  ask adults [
     right random 360
     forward 1
     if pcolor = blue [
@@ -99,27 +128,21 @@ to move-turtles
 end
 
 to feed-larvae
-  ask turtles [
+  ask larvae [
     ifelse food >= 0.5
       [ set food food - 0.5 ]
       [ die ]
   ]
 end
 
-to reproduce
-  ask turtles [
-    hatch 30 [set age 0]
+to lay-eggs
+  ; each adult female lays 60 eggs
+  ; the sex of each egg is set with a 1:1 ratio
+  ask adults [
+    if female? [
+      hatch-eggs FECUNDITY [set female? one-of [true false]]
+    ]
   ]
-end
-
-to regrow-grass
-  ask patches [
-    if random 100 < 3 [ set pcolor green ]
-  ]
-end
-
-to increment-age
-  set age (age + 1)
 end
 
 to colorcode-patches
@@ -161,10 +184,10 @@ ticks
 30.0
 
 BUTTON
-9
-8
-83
-42
+3
+7
+59
+41
 NIL
 setup
 NIL
@@ -178,10 +201,10 @@ NIL
 1
 
 BUTTON
-88
-8
-152
-42
+62
+7
+118
+41
 NIL
 go
 T
@@ -195,21 +218,21 @@ NIL
 0
 
 MONITOR
-10
-55
-107
-100
-NIL
-count turtles
+814
+61
+864
+106
+adults
+count adults
 17
 1
 11
 
 MONITOR
-110
-55
-207
-100
+757
+11
+854
+56
 mean food
 mean [food] of patches with [pcolor != blue]
 3
@@ -217,10 +240,10 @@ mean [food] of patches with [pcolor != blue]
 11
 
 PLOT
-8
-106
-208
-256
+658
+189
+858
+339
 Totals
 time
 totals
@@ -235,10 +258,10 @@ PENS
 "turtles" 1.0 0 -16777216 true "" "plot count turtles"
 
 BUTTON
-31
-325
-95
-359
+122
+7
+178
+41
 NIL
 go
 NIL
@@ -250,6 +273,99 @@ NIL
 NIL
 NIL
 1
+
+SLIDER
+4
+54
+176
+87
+EGG_SURVIVAL
+EGG_SURVIVAL
+0
+1
+1.0
+0.01
+1
+NIL
+HORIZONTAL
+
+SLIDER
+4
+92
+178
+125
+LARVAL_SURVIVAL
+LARVAL_SURVIVAL
+0
+1
+1.0
+0.01
+1
+NIL
+HORIZONTAL
+
+SLIDER
+5
+130
+181
+163
+PUPAL_SURVIVAL
+PUPAL_SURVIVAL
+0
+1
+1.0
+0.01
+1
+NIL
+HORIZONTAL
+
+MONITOR
+657
+62
+707
+107
+eggs
+count eggs
+17
+1
+11
+
+MONITOR
+709
+62
+759
+107
+larvae
+count larvae
+17
+1
+11
+
+MONITOR
+762
+62
+812
+107
+pupae
+count pupae
+17
+1
+11
+
+SLIDER
+6
+169
+178
+203
+FECUNDITY
+FECUNDITY
+0
+100
+60.0
+1
+1
+NIL
+HORIZONTAL
 
 @#$#@#$#@
 # MY NOTES
