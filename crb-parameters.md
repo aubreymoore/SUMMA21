@@ -1,5 +1,7 @@
 # Sources for Coconut Rhinoceros Beetle Model Parameters
 
+https://www.simonlindgren.com/notes/2019/11/15/setup-for-writing-in-markdown-citing-with-zotero-and-publishing-with-pandoc
+
 ## Life cycle
 
 Bedford 1980:
