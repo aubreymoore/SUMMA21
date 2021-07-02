@@ -28,7 +28,7 @@ Gressitt 1953:
 ## Sex ratio
 
 Gressitt 1953: 
->"Of 282 specimens examined from palau and Samoa, 142 were males and 140 were females. This suggests a ratio of 1.014 males to one female."
+>"Of 282 specimens examined from Palau and Samoa, 142 were males and 140 were females. This suggests a ratio of 1.014 males to one female."
 
 ## Flight distances
 Pallipparambil 2015
