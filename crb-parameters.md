@@ -8,7 +8,8 @@ Bedford 1980:
 
 ## Life span and generation time
 
-Gressitt 1953: "The total life span in Palau may range from 150 to about 270 days, and I assume the average under normal conditions to be about 200 days. The pre-incubation period is about 12 to 20 days. The period from the of an egg to first egg of the next generation may be as little as 115 days. Thus, given favorable conditions, more than 3 genertions my develop in one year."
+Gressitt 1953: 
+> "The total life span in Palau may range from 150 to about 270 days, and I assume the average under normal conditions to be about 200 days. The pre-incubation period is about 12 to 20 days. The period from the of an egg to first egg of the next generation may be as little as 115 days. Thus, given favorable conditions, more than 3 genertions my develop in one year."
 
 ## Fecundity
 
