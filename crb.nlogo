@@ -380,19 +380,26 @@ conceptual model -> computer model
 
 ## INTRODUCTION
 
-I am attempting to build a model which will be used to simulate coconut rhinoceros beetle (CRB) population dynamics. 
+I am attempting to build a model which will be used to simulate coconut rhinoceros beetle (CRB) population dynamics.
 
 I hypothesize that massive and rapid increases in larval food supply caused by typhoons or large-scale land clearing may trigger a positive feedback cycle in which adult CRB kill mature coconut palms. Thus CRB populations can transition between two states.
 
-* a low level state where larval food is almost entirely exogenous, consisting of breeding sites in accumulation of decaying plant material from normal ecosystem processes. In this state the rate of CRB adult feeding in mature palms is low to moderate, resulting in damage but little mortality. 
+* a low level state where larval food is almost entirely exogenous, consisting of breeding sites in accumulation of decaying plant material from normal ecosystem processes. In this state the rate of CRB adult feeding in mature palms is low to moderate, resulting in damage but little mortality.
 
 * a high level state where some of the larval food is endogenous, consisting of decaying stems of coconut palms killed by CRB adults. In this state the rate of CRB adult feeding in mature palms is high, resulting in palms some palms being killed.
 
 I hope that the model ouput will provide evidince to support my hypothesis.
 
+## SOURCES FOR PARAMETERS USED IN THIS MODEL
+
+### EGG_SURVIVAL, LARVAL_SURVIVAL, PUPAL EGG_SURVIVAL
+
+### FECUNDITY
+
+
 ## CURRENT STATUS
 
- 
+
 
 # STANDARD TEMPLATE
 
