@@ -6,6 +6,11 @@ Bedford 1980:
 
 >![](crb-life-cycle.png)
 
+## Life table data
+
+Pallipparambil 2015
+>A lab study by Indiravathi (2001) reported that approximately 63 % of eggs and 87% of larvae successfully developed into adults.
+
 ## Life span and generation time
 
 Gressitt 1953: 
