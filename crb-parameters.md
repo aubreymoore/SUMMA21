@@ -23,4 +23,16 @@ Gressitt 1953:
 
 ## Flight distances
 
+>The beetle is thought to prefer short flights, but
+is capable of long flights if local conditions are unfavorable (Catley, 1969). A
+lab study demonstrated that palm-fed tethered adult beetles had a flight
+potential of 2–3 h, covering the equivalent of 2–4 km (Hinckley, 1973).
+Reports of long distance flight by O. rhinoceros include adults flying toward
+light on a ship anchored 700 m from shore (Catley, 1969), marked adults
+recaptured at 900 m within 3 d and approximately 1600 m within a month
+(Cumber, 1957). Kamarudin and Wahid (2004) used mark-release-recapture
+studies to determine the flight range of O. rhinoceros in oil palm replanting
+regions in Malaysia; their results suggested that the adults moved at the rate of
+10–23 m/day and up to 1.3 km/week.
+
 ## Food conversion
