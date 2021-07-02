@@ -356,7 +356,7 @@ SLIDER
 6
 169
 178
-203
+202
 FECUNDITY
 FECUNDITY
 0
@@ -388,7 +388,11 @@ I hypothesize that massive and rapid increases in larval food supply caused by t
 
 * a high level state where some of the larval food is endogenous, consisting of decaying stems of coconut palms killed by CRB adults. In this state the rate of CRB adult feeding in mature palms is high, resulting in palms some palms being killed.
 
-I hope that the model ouput will provide evidince to support my hypothesis.
+I hope that the model ouput will provide evidence to support my hypothesis.
+
+## SPATIAL SCALE
+
+Each patch is one hectare (100m x 100m). The area of the island is 709 ha (7.09 km2).
 
 ## SOURCES FOR PARAMETERS USED IN THIS MODEL
 
