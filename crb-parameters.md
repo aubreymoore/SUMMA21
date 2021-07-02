@@ -13,11 +13,13 @@ Gressitt 1953:
 
 ## Fecundity
 
-Gressitt 1953: "A female lays 70 to more than 100 eggs in its lifetime. Taking 90 as the average number of eggs laid by one female and assuming the sex ratio to be one female to one male, with an average life-cycle of 4 months to middle of egg-layng period for each female), the theoreticalfigure of 186,390 progeny per originalfemale during one year (16,995,293,890 by the end of two years) is obtained."
+Gressitt 1953: 
+>"A female lays 70 to more than 100 eggs in its lifetime. Taking 90 as the average number of eggs laid by one female and assuming the sex ratio to be one female to one male, with an average life-cycle of 4 months to middle of egg-layng period for each female), the theoreticalfigure of 186,390 progeny per originalfemale during one year (16,995,293,890 by the end of two years) is obtained."
 
 ## Sex ratio
 
-Gressitt 1953: "Of 282 specimens examined from palau and Samoa, 142 were males and 140 were females. This suggests a ratio of 1.014 males to one female."
+Gressitt 1953: 
+>"Of 282 specimens examined from palau and Samoa, 142 were males and 140 were females. This suggests a ratio of 1.014 males to one female."
 
 ## Flight distances
 
