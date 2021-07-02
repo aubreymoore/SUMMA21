@@ -4,7 +4,7 @@
 
 Bedford 1980:
 
-![](crb-life-cycle.png)
+>![](crb-life-cycle.png)
 
 ## Life span and generation time
 
