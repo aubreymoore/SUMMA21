@@ -1,0 +1,153 @@
+\documentclass[12pt,letterpaper,english,bibliography=totocnumbered, abstract=on]{scrartcl}
+
+\usepackage{indentfirst}
+\usepackage[titletoc]{appendix}
+%\usepackage{fullpage}
+%\usepackage{subfiles}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{color}
+\usepackage{babel}
+\usepackage{verbatim}
+\usepackage[unicode=true,pdfusetitle,
+bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=true]
+{hyperref}
+\hypersetup{linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{threeparttable}
+\usepackage[table]{xcolor}
+\usepackage{csquotes}
+\usepackage{soul} % for hiliting text: \hl
+
+\usepackage[backend=biber, style=authoryear, maxbibnames=99, dashed=false]{biblatex}
+\setlength\bibitemsep{2\itemsep}
+%\addbibresource{mylibrary.bib}
+\addbibresource{../CRB.bib}
+
+\usepackage{pdfpages}
+\usepackage{float} % Allows use of H to place floats
+
+\usepackage{pgfgantt}
+
+\usepackage{framed}
+
+% Prevent page breaks within paragraphs
+% https://tex.stackexchange.com/questions/21983/how-to-avoid-page-breaks-inside-paragraphs
+\widowpenalties 1 10000
+
+% add verticle space after a paragraph
+\setlength{\parskip}{1em}
+
+\begin{document}
+
+\title{Parameters for Coconut Rhinoceros Beetle Modeling}
+
+\author{Aubrey Moore}
+
+\maketitle
+%\footnote{\url{https://github.com/aubreymoore/2020-FS-CRB-biocontrol-project/blob/master/combined-proposal.pdf}}
+\newpage
+\tableofcontents
+\pagebreak
+
+\begin{abstract}
+	This document represents an attempt to extract parameters for modeling coconut rhinoceros beetle (CRB) population dynamics from the literature. A couple of review articles provided a good starting point: \cite{bedford_biology_1980} and \cite{pallipparambil_new_2015}. The only published journal article on modeling CRB population dynamics, \cite{hochberg_model_1991}, was also a useful reference. 
+\end{abstract}
+
+\section{Parameters used in the Hochberg and Waage model}
+
+Table from \cite{hochberg_model_1991}:
+\begin{center}
+	\includegraphics[width=0.7\linewidth]{../images/hochberg-model-params}
+\end{center}
+
+
+\section{Life cycle}
+
+Table from \cite{bedford_biology_1980}. Note that the column for CRB, \textit{Oryctes rhinoceros}, was compiled using data from 4 sources:
+
+\begin{center}
+	\includegraphics[width=0.7\linewidth]{../crb-life-cycle}
+\end{center}
+
+\section{Life table data}
+
+"A lab study by Indiravathi (2001) reported that approximately 63\% of eggs and 87\% of larvae successfully developed into adults." [\cite{pallipparambil_new_2015}]
+
+"Small improvements in the average survival of
+larvae would explain the post-typhoon increases in
+Rhinoceros Beetle populations so often observed on
+Pacific islands. Assuming survival from oviposition
+to adult emergence is near 2 percent in a stable pop-
+ulation: a posttyphoon generation might increase
+2.5 times with an average 5 percent survival in
+the numerous palm logs felled by the storm. A
+population decline would be expected only when
+preadult mortality exceeds 98 percent." [\cite{hinckley_ecology_1973}]
+
+\section{Life span and generation time}
+
+"The total life span in Palau may range from 150 to about 270 days, and I assume the average under normal conditions to be about 200 days. The pre-incubation period is about 12 to 20 days. The period from the of an egg to first egg of the next generation may be as little as 115 days. Thus, given favorable conditions, more than 3 generations my develop in one year." [\cite{gressitt_coconut_1953}]
+
+"Unfavorable environmental conditions reduces larval size and prolongs
+development up to 420 d (Catley, 1969)." [\cite{pallipparambil_new_2015}]
+
+\section{Larval food conversion}
+
+"The minimum volumes per grub were 400 cc in a coconut log; 5000 cc in a kapok log; 7000 cc in a breadfruit log; 7000 cc in sawdust; and 9000 cc in grass compost." [\cite{hinckley_ecology_1973}]
+\section{Fecundity}
+
+"A female lays 70 to more than 100 eggs in its lifetime. Taking 90 as the average number of eggs laid by one female and assuming the sex ratio to be one female to one male, with an average life-cycle of 4 months to middle of egg-layng period for each female), the theoretical figure of 186,390 progeny per original female during one year (16,995,293,890 by the end of two years) is obtained." [\cite{gressitt_coconut_1953}]
+
+"Both sexes mate several times and from studies of spermatophore residues in the bursa copulatrix
+of field collected females Hoyt (undated) estimated that there is a maximum of eight matings. However,
+field collected females have produced fertile eggs up to 130 days after being confined singly in cans of
+rotting sawdust which suggests that multiple matings are not essential. Egg production varies considerably
+depending on the longevity of the beetle and the suitability of the oviposition medium. Menon and Pandalai (1958) recorded up to 152 eggs per female although 90 - 100 would be more usual." [\cite{catley_coconut_1969}]
+
+\section{Sex ratio}
+
+"Of 282 specimens examined from Palau and Samoa, 142 were males and 140 were females. This suggests a ratio of 1.014 males to one female." [\cite{gressitt_coconut_1953}]
+
+\section{Flight distances}
+"The beetle is thought to prefer short flights, but
+is capable of long flights if local conditions are unfavorable (Catley, 1969). A
+lab study demonstrated that palm-fed tethered adult beetles had a flight
+potential of 2-3 h, covering the equivalent of 2-4 km (Hinckley, 1973).
+Reports of long distance flight by \textit{O. rhinoceros} include adults flying toward
+light on a ship anchored 700 m from shore (Catley, 1969), marked adults
+recaptured at 900 m within 3d and approximately 1600 m within a month
+(Cumber, 1957). Kamarudin and Wahid (2004) used mark-release-recapture
+studies to determine the flight range of \textit{O. rhinoceros} in oil palm replanting
+regions in Malaysia; their results suggested that the adults moved at the rate of
+10-23 m/day and up to 1.3 km/week." [\cite{pallipparambil_new_2015}]
+
+\section{Number of adult feeding events (=attacks)}
+
+\cite{vander_meer_per_1987} indicates that adult CRB feed 6 times between days 30 and 150 after eclosion from the pupa (see figure 4 in the article).
+
+\section{Probability of palm death from an attack}
+
+
+\section{Detection level for economic damage}
+
+\cite{hinckley_ecology_1973}:
+
+"The final goal should be a population reduction below the level at which economic damage\textsuperscript{3} can be detected (Hinckley 1966).
+
+\textsuperscript{3}About 7.5 beetles/hectare (3/acre) on plantations in Western Samaoa."
+
+\section{Density of coconut palms on Guam}
+
+Estimated number of \textit{Cocos nucifera} with DBH > 5 inches growing on forested land on Guam (63,383 acres) is 1,162,494. [\cite{donnegon_guams_2004}] 
+
+This is 18.21 coconut palms per acre (=	45.00 per ha).
+
+\newpage
+\printbibliography
+
+\end{document}

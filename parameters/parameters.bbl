@@ -1,0 +1,352 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bedford_biology_1980}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=243c5bc6be07f394685772ad4c2bce47}{%
+           family={Bedford},
+           familyi={B\bibinitperiod},
+           given={Geoffrey\bibnamedelima O},
+           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{243c5bc6be07f394685772ad4c2bce47}
+      \strng{fullhash}{243c5bc6be07f394685772ad4c2bce47}
+      \strng{bibnamehash}{243c5bc6be07f394685772ad4c2bce47}
+      \strng{authorbibnamehash}{243c5bc6be07f394685772ad4c2bce47}
+      \strng{authornamehash}{243c5bc6be07f394685772ad4c2bce47}
+      \strng{authorfullhash}{243c5bc6be07f394685772ad4c2bce47}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Entomology}
+      \field{title}{Biology, Ecology, and Control of Palm Rhinoceros Beetles}
+      \field{volume}{25}
+      \field{year}{1980}
+      \field{dateera}{ce}
+      \field{pages}{309\bibrangedash 339}
+      \range{pages}{31}
+      \verb{file}
+      \verb /home/aubrey/Zotero/storage/WDTP47TJ/Bedford - 1980 - Biology, ecology, and control of palm rhinoceros beetles.pdf
+      \endverb
+    \endentry
+    \entry{catley_coconut_1969}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2dbb34c9e580f96b41114538fc149871}{%
+           family={Catley},
+           familyi={C\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2dbb34c9e580f96b41114538fc149871}
+      \strng{fullhash}{2dbb34c9e580f96b41114538fc149871}
+      \strng{bibnamehash}{2dbb34c9e580f96b41114538fc149871}
+      \strng{authorbibnamehash}{2dbb34c9e580f96b41114538fc149871}
+      \strng{authornamehash}{2dbb34c9e580f96b41114538fc149871}
+      \strng{authorfullhash}{2dbb34c9e580f96b41114538fc149871}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0434554690941}
+      \field{journaltitle}{International Journal of Pest Management: Part A}
+      \field{number}{1}
+      \field{title}{The Coconut Rhinoceros Beetle {{Oryctes}} Rhinoceros ({{L}})}
+      \field{volume}{15}
+      \field{year}{1969}
+      \field{dateera}{ce}
+      \field{pages}{18\bibrangedash 30}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1080/04345546909415075
+      \endverb
+      \verb{file}
+      \verb /home/aubrey/Zotero/storage/TE9TAU9J/Catley 1969.pdf
+      \endverb
+    \endentry
+    \entry{donnegon_guams_2004}{report}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9fd82520b0b7b49b26596d8918e622ee}{%
+           family={Donnegon},
+           familyi={D\bibinitperiod},
+           given={Joseph\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb935b0b7345cc05ff3b8a42900d5a3d}{%
+           family={Buttler},
+           familyi={B\bibinitperiod},
+           given={Sarah\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5076f86c1366fee549803c462391105b}{%
+           family={Grabowiecki},
+           familyi={G\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b19986dd5fdc070ae467f35e46628511}{%
+           family={Hiserote},
+           familyi={H\bibinitperiod},
+           given={Bruce\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e6738b1a85c63c8f9be7fd1d903c8d0}{%
+           family={Limtiaco},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5a798c4c6c5d8ad0d11e8557909d32ec}
+      \strng{fullhash}{350cadcf6f34b4095794e2aa98cce25c}
+      \strng{bibnamehash}{350cadcf6f34b4095794e2aa98cce25c}
+      \strng{authorbibnamehash}{350cadcf6f34b4095794e2aa98cce25c}
+      \strng{authornamehash}{5a798c4c6c5d8ad0d11e8557909d32ec}
+      \strng{authorfullhash}{350cadcf6f34b4095794e2aa98cce25c}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{PNW-RB-243}
+      \field{title}{Guam's {{Forest Resources}}, 2002}
+      \field{urlday}{30}
+      \field{urlmonth}{7}
+      \field{urlyear}{2016}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/aubrey/Zotero/storage/W2N3VWJA/pnw_rb243.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.fs.fed.us/pnw/pubs/pnw_rb243.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.fs.fed.us/pnw/pubs/pnw_rb243.pdf
+      \endverb
+    \endentry
+    \entry{gressitt_coconut_1953}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1db8dfbfb513595adc2cb3751dbabb39}{%
+           family={Gressitt},
+           familyi={G\bibinitperiod},
+           given={Linsley\bibnamedelima J},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Honolulu}%
+      }
+      \strng{namehash}{1db8dfbfb513595adc2cb3751dbabb39}
+      \strng{fullhash}{1db8dfbfb513595adc2cb3751dbabb39}
+      \strng{bibnamehash}{1db8dfbfb513595adc2cb3751dbabb39}
+      \strng{authorbibnamehash}{1db8dfbfb513595adc2cb3751dbabb39}
+      \strng{authornamehash}{1db8dfbfb513595adc2cb3751dbabb39}
+      \strng{authorfullhash}{1db8dfbfb513595adc2cb3751dbabb39}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Coconut Rhinoceros Beetle ({{Oryctes}} Rhinoceros) with Particular Reference to the {{Palau Islands}}}
+      \field{year}{1953}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 83}
+      \range{pages}{83}
+      \verb{file}
+      \verb /home/aubrey/Zotero/storage/RV9XAUGD/Gressitt - 1953 - The coconut rhinoceros beetle (Oryctes rhinoceros) with particular reference to the Palau Islands.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://books.google.com/books?id=OtcZAQAAIAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com/books?id=OtcZAQAAIAAJ
+      \endverb
+    \endentry
+    \entry{hinckley_ecology_1973}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f809e29eca35bb46aca82c6882a99fb7}{%
+           family={Hinckley},
+           familyi={H\bibinitperiod},
+           given={A\bibnamedelima Dexter},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f809e29eca35bb46aca82c6882a99fb7}
+      \strng{fullhash}{f809e29eca35bb46aca82c6882a99fb7}
+      \strng{bibnamehash}{f809e29eca35bb46aca82c6882a99fb7}
+      \strng{authorbibnamehash}{f809e29eca35bb46aca82c6882a99fb7}
+      \strng{authornamehash}{f809e29eca35bb46aca82c6882a99fb7}
+      \strng{authorfullhash}{f809e29eca35bb46aca82c6882a99fb7}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biotropica}
+      \field{number}{2}
+      \field{title}{Ecology of the Coconut Rhinoceros Beetle , {{Oryctes}} Rhinoceros ( {{L}} .) ( {{Coleoptera}} : {{Dynastidae}} )}
+      \field{volume}{5}
+      \field{year}{1973}
+      \field{dateera}{ce}
+      \field{pages}{111\bibrangedash 116}
+      \range{pages}{6}
+      \verb{file}
+      \verb /home/aubrey/Zotero/storage/FF5GXHCF/Hinckley - 1973 - Ecology of the Coconut Rhinoceros Beetle, Oryctes rhinoceros (L.) (Coleoptera Dynastidae).pdf
+      \endverb
+    \endentry
+    \entry{hochberg_model_1991}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4e0f588832a3a0e0e541b77abd38fcc4}{%
+           family={Hochberg},
+           familyi={H\bibinitperiod},
+           given={Me},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fad3f9faa6ea2c6a0ef6101a3c35f5ef}{%
+           family={Waage},
+           familyi={W\bibinitperiod},
+           given={Jk},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb82646cf82bb866b1da0686d571c322}
+      \strng{fullhash}{eb82646cf82bb866b1da0686d571c322}
+      \strng{bibnamehash}{eb82646cf82bb866b1da0686d571c322}
+      \strng{authorbibnamehash}{eb82646cf82bb866b1da0686d571c322}
+      \strng{authornamehash}{eb82646cf82bb866b1da0686d571c322}
+      \strng{authorfullhash}{eb82646cf82bb866b1da0686d571c322}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of applied ecology}
+      \field{number}{2}
+      \field{title}{A Model for the Biological Control of {{Oryctes}} Rhinoceros({{Coleoptera}}: {{Scarabaeidae}}) by Means of Pathogens.}
+      \field{volume}{28}
+      \field{year}{1991}
+      \field{dateera}{ce}
+      \field{pages}{514\bibrangedash 531}
+      \range{pages}{18}
+      \verb{file}
+      \verb /home/aubrey/Zotero/storage/VKU2G6P5/MEHJap91.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://mike.hochberg.free.fr/MEHJap91.pdf
+      \endverb
+      \verb{url}
+      \verb http://mike.hochberg.free.fr/MEHJap91.pdf
+      \endverb
+    \endentry
+    \entry{pallipparambil_new_2015}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0a82612fe0d995bacfc4924a9e2abdfe}{%
+           family={Pallipparambil},
+           familyi={P\bibinitperiod},
+           given={Godshen},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {United States Department of Agriculture - Animal and Plant Health Inspection Service - Plant Protection and Quarantine}%
+      }
+      \strng{namehash}{0a82612fe0d995bacfc4924a9e2abdfe}
+      \strng{fullhash}{0a82612fe0d995bacfc4924a9e2abdfe}
+      \strng{bibnamehash}{0a82612fe0d995bacfc4924a9e2abdfe}
+      \strng{authorbibnamehash}{0a82612fe0d995bacfc4924a9e2abdfe}
+      \strng{authornamehash}{0a82612fe0d995bacfc4924a9e2abdfe}
+      \strng{authorfullhash}{0a82612fe0d995bacfc4924a9e2abdfe}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{New {{Pest Response Guidelines}}: {{Oryctes}} Rhinoceros ({{L}}.) {{Coleoptera}}:{{Scarabaeidae Coconut Rhinoceros Beetle}}}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{180}
+      \range{pages}{1}
+      \verb{file}
+      \verb /home/aubrey/Zotero/storage/WNPAN3W5/NPRG Oryctes rhinoceros.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/aubreymoore/detectorBeetles/raw/master/Documents%20for%20paper/USDA%20APHIS%20PPQ%202015.pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/aubreymoore/detectorBeetles/raw/master/Documents%20for%20paper/USDA%20APHIS%20PPQ%202015.pdf
+      \endverb
+    \endentry
+    \entry{vander_meer_per_1987}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=956ed9f03c317a96a1db69568a42dda2}{%
+           family={Vander\bibnamedelima Meer},
+           familyi={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Robert\bibnamedelima K},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{956ed9f03c317a96a1db69568a42dda2}
+      \strng{fullhash}{956ed9f03c317a96a1db69568a42dda2}
+      \strng{bibnamehash}{956ed9f03c317a96a1db69568a42dda2}
+      \strng{authorbibnamehash}{956ed9f03c317a96a1db69568a42dda2}
+      \strng{authornamehash}{956ed9f03c317a96a1db69568a42dda2}
+      \strng{authorfullhash}{956ed9f03c317a96a1db69568a42dda2}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Insect Physiology}
+      \field{number}{6}
+      \field{title}{Per Cent Emergent Weight: A Roadmap to Adult Rhinoceros Beetle, {{Oryctes}} Rhinoceros, Behaviour}
+      \field{volume}{33}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \field{pages}{437\bibrangedash 441}
+      \range{pages}{5}
+      \verb{file}
+      \verb /home/aubrey/Zotero/storage/GZJ4MMF6/Vander Meer - 1987 - Per cent emergent weight a roadmap to adult rhinoceros beetle, Oryctes rhinoceros, behaviour.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.guaminsects.net/CRB/docs/VanderMeer1986.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.guaminsects.net/CRB/docs/VanderMeer1986.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

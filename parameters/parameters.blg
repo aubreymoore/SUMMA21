@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'parameters.blg'
+[51] biber:322> INFO - === Fri Jul  9, 2021, 06:45:52
+[61] Biber.pm:415> INFO - Reading 'parameters.bcf'
+[108] Biber.pm:943> INFO - Found 8 citekeys in bib section 0
+[119] Biber.pm:4256> INFO - Processing section 0
+[119] Utils.pm:75> INFO - Globbing data source '../CRB.bib'
+[119] Utils.pm:91> INFO - Globbed data source '../CRB.bib' to ../CRB.bib
+[126] Biber.pm:4455> INFO - Looking for bibtex format file '../CRB.bib' for section 0
+[155] bibtex.pm:1653> INFO - LaTeX decoding ...
+[669] bibtex.pm:1471> INFO - Found BibTeX data source '../CRB.bib'
+[740] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[740] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[741] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[741] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[749] bbl.pm:652> INFO - Writing 'parameters.bbl' with encoding 'latin9'
+[754] bbl.pm:755> INFO - Output to parameters.bbl
