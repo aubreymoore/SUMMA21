@@ -19,10 +19,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9}Number of adult feeding events (=attacks)}{7}{section.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Probability of palm death from an attack}{7}{section.10}%
+\contentsline {section}{\numberline {10}Probability of a palm dying as the result of CRB attacks}{8}{section.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}Detection level for economic damage}{7}{section.11}%
+\contentsline {section}{\numberline {11}Detection level for economic damage}{9}{section.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12}Density of coconut palms on Guam}{7}{section.12}%
+\contentsline {section}{\numberline {12}Density of coconut palms on Guam}{9}{section.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13}References}{8}{section.13}%
+\contentsline {section}{\numberline {13}References}{10}{section.13}%

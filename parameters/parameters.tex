@@ -34,6 +34,7 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 \usepackage{pgfgantt}
 
 \usepackage{framed}
+\usepackage{amsmath}
 
 % Prevent page breaks within paragraphs
 % https://tex.stackexchange.com/questions/21983/how-to-avoid-page-breaks-inside-paragraphs
@@ -130,7 +131,31 @@ regions in Malaysia; their results suggested that the adults moved at the rate o
 
 \cite{vander_meer_per_1987} indicates that adult CRB feed 6 times between days 30 and 150 after eclosion from the pupa (see figure 4 in the article).
 
-\section{Probability of palm death from an attack}
+\newpage
+\section{Probability of a palm dying as the result of CRB attacks}
+
+$$
+p(Mortality)=
+\begin{cases}
+0, & \text{if $AR < LAR0$} \\
+\frac{AR-LAR0}{LAR1-LAR0}, & \text{if $LAR0 <= AR <= LAR1$} \\
+1, & \text{if $AR > LAR1$}
+\end{cases}
+$$
+
+Where:
+
+$p(Mortality)$ is the probablility of mortality of a palm tree immediately following a CRB attack
+	
+$AR$ is the attack rate which is the number of simultaneous attacks (=bore holes) during a time period. In this model the time period is one CRB generation.
+
+$LAR0$ is the highest attack rate which results in 0\% mortality as a result of CRB.
+
+$LAR1$ is the lowest attack rate which results 100\% mortality as a result of CRB.
+
+\begin{center}
+	\includegraphics[width=\linewidth]{../images/pmort}
+\end{center}
 
 
 \section{Detection level for economic damage}

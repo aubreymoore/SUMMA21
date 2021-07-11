@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.13)  9 JUL 2021 07:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.13)  11 JUL 2021 18:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1121,6 +1121,64 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen288
 \FrameSep=\dimen289
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip96
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks45
+\ex@=\dimen290
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen291
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count452
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count453
+\leftroot@=\count454
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count455
+\DOTSCASE@=\count456
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box69
+\strutbox@=\box70
+\big@size=\dimen292
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count457
+\c@MaxMatrixCols=\count458
+\dotsspace@=\muskip21
+\c@parentequation=\count459
+\dspbrk@lvl=\count460
+\tag@help=\toks46
+\row@=\count461
+\column@=\count462
+\maxfields@=\count463
+\andhelp@=\toks47
+\eqnshift@=\dimen293
+\alignsep@=\dimen294
+\tagshift@=\dimen295
+\tagwidth@=\dimen296
+\totwidth@=\dimen297
+\lineht@=\dimen298
+\@envbody=\toks48
+\multlinegap=\skip97
+\multlinetaggap=\skip98
+\mathdisplay@stack=\toks49
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1128,58 +1186,66 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count452
-\l__pdf_internal_box=\box69
+\l__kernel_color_stack_int=\count464
+\l__pdf_internal_box=\box71
 )
 (./parameters.aux)
 \openout1 = `parameters.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-Package scrbase Info: activating english \contentsname on input line 45.
-Package scrbase Info: activating english \listfigurename on input line 45.
-Package scrbase Info: activating english \listtablename on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+Package scrbase Info: activating english \contentsname on input line 46.
+Package scrbase Info: activating english \listfigurename on input line 46.
+Package scrbase Info: activating english \listtablename on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count453
-\scratchdimen=\dimen290
-\scratchbox=\box70
-\nofMPsegments=\count454
-\nofMParguments=\count455
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count456
-\MPscratchDim=\dimen291
-\MPnumerator=\count457
-\makeMPintoPDFobject=\count458
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count465
+\scratchdimen=\dimen299
+\scratchbox=\box72
+\nofMPsegments=\count466
+\nofMParguments=\count467
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count468
+\MPscratchDim=\dimen300
+\MPnumerator=\count469
+\makeMPintoPDFobject=\count470
+\everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box71
-Package hyperref Info: Link coloring ON on input line 45.
+\AtBeginShipoutBox=\box73
+Package hyperref Info: Link coloring ON on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1190,11 +1256,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count459
+\c@section@level=\count471
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
 
 (./parameters.out) (./parameters.out)
 \@outlinefile=\write5
@@ -1207,7 +1273,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 45.
+(scrartcl)           before \begin{document} on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
@@ -1217,7 +1283,7 @@ File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 168.
-\BKM@id=\count460
+\BKM@id=\count472
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1234,8 +1300,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'parameters.bbl' found.
 
 (./parameters.bbl)
-Package biblatex Info: Reference section=0 on input line 45.
-Package biblatex Info: Reference segment=0 on input line 45.
+Package biblatex Info: Reference section=0 on input line 46.
+Package biblatex Info: Reference segment=0 on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -1247,16 +1313,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 5
-3.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 53.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 53.
- [1
+) [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./parameters.toc)
@@ -1268,10 +1329,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: ../images/hochberg-model-params.png Graphic file (type png)
 <use ../images/hochberg-model-params.png>
 Package pdftex.def Info: ../images/hochberg-model-params.png  used on input lin
-e 65.
+e 66.
 (pdftex.def)             Requested size: 268.7529pt x 245.71722pt.
 
-Overfull \hbox (15.2358pt too wide) in paragraph at lines 71--72
+Overfull \hbox (15.2358pt too wide) in paragraph at lines 72--73
 []\T1/cmr/m/n/12 Table from []Bed-ford [][]1980[][]. Note that the col-umn for 
 CRB, \T1/cmr/m/it/12 Oryctes rhinoceros\T1/cmr/m/n/12 ,
  []
@@ -1280,62 +1341,63 @@ CRB, \T1/cmr/m/it/12 Oryctes rhinoceros\T1/cmr/m/n/12 ,
 <../crb-life-cycle.png, id=65, 857.2025pt x 450.68375pt>
 File: ../crb-life-cycle.png Graphic file (type png)
 <use ../crb-life-cycle.png>
-Package pdftex.def Info: ../crb-life-cycle.png  used on input line 74.
+Package pdftex.def Info: ../crb-life-cycle.png  used on input line 75.
 (pdftex.def)             Requested size: 268.7529pt x 141.29907pt.
  [4 <../crb-life-cycle.png>]
-Overfull \hbox (2.83789pt too wide) in paragraph at lines 106--111
+Overfull \hbox (2.83789pt too wide) in paragraph at lines 107--112
 []\T1/cmr/m/n/12 "Both sexes mate sev-eral times and from stud-ies of sper-mato
 phore residues
  []
 
-[5] [6]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 140.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 140.
- [7]
-Overfull \hbox (13.17557pt too wide) in paragraph at lines 152--152
+[5] [6] [7]
+<../images/pmort.png, id=99, 1266.7325pt x 361.35pt>
+File: ../images/pmort.png Graphic file (type png)
+<use ../images/pmort.png>
+Package pdftex.def Info: ../images/pmort.png  used on input line 157.
+(pdftex.def)             Requested size: 383.9344pt x 109.5196pt.
+ [8 <../images/pmort.png>] [9]
+Overfull \hbox (13.17557pt too wide) in paragraph at lines 177--177
 [][]\T1/cmr/m/n/12 Bedford, Ge-of-frey O (1980). ^^P  Bi-ol-ogy, Ecol-ogy, and 
 Con-trol of Palm Rhinoceros
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-51.
+76.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (14.8993pt too wide) in paragraph at lines 152--152
+Overfull \hbox (14.8993pt too wide) in paragraph at lines 177--177
 [][]\T1/cmr/m/n/12 Gressitt, Lins-ley J (1953). \T1/cmr/m/it/12 The Co-conut Rh
 inoceros Bee-tle (Oryctes Rhinoceros)
  []
 
 
-Overfull \hbox (9.07347pt too wide) in paragraph at lines 152--152
+Overfull \hbox (9.07347pt too wide) in paragraph at lines 177--177
 \T1/cmr/m/it/12 Rhinoceros (L.) Coleoptera:Scarabaeidae Co-conut Rhinoceros Bee
 -tle\T1/cmr/m/n/12 . United
  []
 
-[8] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
+[10] [11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  (./parameters.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `parameters.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'parameters.run.xml'.
 \openout1 = `parameters.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
- 34325 strings out of 483183
- 652689 string characters out of 5966292
- 1390833 words of memory out of 5000000
- 48745 multiletter control sequences out of 15000+600000
- 545661 words of font info for 50 fonts, out of 8000000 for 9000
+ 34981 strings out of 483183
+ 660645 string characters out of 5966292
+ 1402675 words of memory out of 5000000
+ 49375 multiletter control sequences out of 15000+600000
+ 547552 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 73i,8n,90p,10105b,1872s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,13n,90p,10105b,1872s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/aubrey/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.60
 0pk> </home/aubrey/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.
 600pk> </home/aubrey/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm080
@@ -1347,11 +1409,16 @@ csx1095.600pk> </home/aubrey/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec
 ec/ecsx1728.600pk> </home/aubrey/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/ecrm1200.600pk> </home/aubrey/.texlive2019/texmf-var/fonts/pk/ljfour/jknap
 pen/ec/ecrm1728.600pk> </home/aubrey/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecsx2488.600pk>
-Output written on parameters.pdf (9 pages, 432670 bytes).
+appen/ec/ecsx2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on parameters.pdf (11 pages, 497659 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
