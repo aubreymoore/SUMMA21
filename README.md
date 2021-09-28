@@ -12,7 +12,7 @@ Jupyter notebooks can be run interactively on Binder [![Binder](https://mybinder
 
 ## How I got interested in modeling population dynamics (0.5h)
 
-I first got interested in population dynamics models way back in the late 70s when I used a programmable calculator to play with the Lotka-Volterra model. Results from a simulated pesticide application were totally unexpected yet informative.
+I first got interested in population dynamics models way back in the late 70s when I used a programmable calculator to play with the Lotka-Volterra model. Results from a simulated pesticide application were totally unexpected, yet informative.
 
 **Resources**
 
