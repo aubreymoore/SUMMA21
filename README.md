@@ -20,7 +20,7 @@ I first got interested in population dynamics models way back in the late 70s wh
 * [Lotka-Volterra Model [Jupyter notebook]](https://aubreymoore.github.io/SUMMA21/Lotka-Volterra-Model.ipynb)
 * [Interactive Version of the Lotka-Voltera Model](https://mybinder.org/v2/gh/aubreymoore/SUMMA21/HEAD)
   * EXPERIMENTAL: Click on the link above; wait for the Binder server to spin up; click on **Lotka-Volterra-Model.ipynb**. 
-* Extra: [My professional toolbox](https://aubreymoore.github.io/SUMMA21/my-professional-toolbox.md)
+* Extra: [My professional toolbox](my-professional-toolbox.md)
 
 ## Coconut Rhinoceros Beetle Biology (1h)
 A fairly comprehensive overview of coconut rhinoceros beetle biology and (failed) attempts to control this pest on Guam.
