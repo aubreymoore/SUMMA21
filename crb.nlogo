@@ -1,4 +1,10 @@
-;extensions [palette]
+globals [
+  LAND_PATCHES
+  GREENWASTE_DECAY_RATE
+  MAX_FLIGHT_DISTANCE
+  MAX_ADULT_FEEDING_EVENTS
+  CLUTCH_SIZE
+]
 
 breed [eggs egg]
 breed [larvae larva]
@@ -8,14 +14,18 @@ breed [adults adult]
 eggs-own   [female?]
 larvae-own [female?]
 pupae-own  [female?]
-adults-own [female?]
+adults-own [female? feeding_flights]
 
-patches-own [food]
+breed [breeding_sites breeding_site]
+breeding_sites-own [ site_type volume food_quality decay_rate carrying_capacity ]
+
+;patches-own [food]
 
 to setup
   clear-all
   make-ocean
   make-island
+  set-globals
   reset-ticks
 end
 
@@ -26,7 +36,7 @@ end
 to make-ocean
   ask patches [
     set pcolor blue
-    set food -1
+    ;set food -1
   ]
 end
 
@@ -39,7 +49,53 @@ to make-island
   ]
 end
 
+to set-globals
+  set LAND_PATCHES patches with [pcolor = green]
+  set GREENWASTE_DECAY_RATE 0.5   ; proportion of material which is removed by decay during each tick
+  set MAX_FLIGHT_DISTANCE 100   ; radius in meters within which CRB adults can find coconut palms and breeding sites.
+  set MAX_ADULT_FEEDING_EVENTS 4
+  set CLUTCH_SIZE 25
+end
+
+
+to create-greenwaste-sites [num_sites site_volume site_color site_size]
+  create-breeding_sites num_sites
+  [ set size site_size
+    set shape "circle"
+    set color site_color
+    move-to one-of LAND_PATCHES
+    setxy xcor - 0.5 + random-float 1 ycor - 0.5 + random-float 1
+    set site_type "greenwaste"
+    set volume site_volume
+    set food_quality 1
+    set decay_rate GREENWASTE_DECAY_RATE
+    set carrying_capacity volume / food_quality
+  ]
+end
+
+to decay-breeding-sites
+  ask breeding_sites [
+    set volume (1.0 - decay_rate) * volume
+    set carrying_capacity volume / food_quality
+    if carrying_capacity < 1 [die]
+  ]
+end
+
 ;------------------------------
+
+to simulate-typhoon
+  create-greenwaste-sites 1000 1000 red 0.5
+end
+
+to simulate-land-clearing
+  create-greenwaste-sites 1 100000 brown 1.0
+end
+
+to test
+  tick
+  create-greenwaste-sites 100 100 black 0.3
+  decay-breeding-sites
+end
 
 to go
   tick
@@ -47,8 +103,8 @@ to go
   if ticks = 20  [initiate-invasion]
   if ticks = 200 [stop]
 
-  decay-food
-  add-food
+;  decay-food
+;  add-food
 
   ; At the start of a generation there should be only adults
 
@@ -57,16 +113,26 @@ to go
   kill-adults
 
   convert-eggs-to-larvae
-  feed-larvae
+  ;feed-larvae
   convert-larvae-to-pupae
   convert-pupae-to-adults
 
-  colorcode-patches
+  ;colorcode-patches
 end
 
 ;------------------------------
 ; FUNCTIONS CALLED BY go
 ;------------------------------
+
+
+to feed-adults:
+  while [feeding_flights < MAX_FEEDING_FLIGHTS]
+    [
+      ; fly to nearest tree
+      ; increment adult feeding_flights
+      ; increment tree attacks
+    ]
+end
 
 to convert-eggs-to-larvae
   ask eggs[
@@ -95,24 +161,53 @@ end
 
 to initiate-invasion
   create-adults 1 [
+    move-to one-of LAND_PATCHES
+    setxy xcor - 0.5 + random-float 1 ycor - 0.5 + random-float 1
     set female? true
-    set xcor -15
-    set ycor 0
     set color black
   ]
 end
 
-to decay-food
-  ask patches with [pcolor != blue] [
-    set food (food * 0.5)
+to find-breeding-site
+  ask adults[
+    let nearby-breeding-site one-of breeding_sites in-radius (MAX_FLIGHT_DISTANCE / 100.0)
+    ifelse nearby-breeding-site = nobody
+      [
+        print "No nearby breeding site found."
+      ]
+      [
+        print "Nearby breeding site found."
+        print "Moving to nearby-breeding-site."
+        move-to nearby-breeding-site
+        print "If female, laying eggs."
+        if female? [ hatch-eggs CLUTCH_SIZE [set female? one-of [true false] ]]
+      ]
+
+
+;    ifelse [ breed ] of
+;    ifelse (any? nearby-breeding-site)
+;    [
+;      print "breeding site found: coloring red"
+;      ask nearby-breeding-site [set color red ]
+;      if female? [ hatch-eggs CLUTCH_SIZE [set female? one-of [true false] ]]]
+;    [
+;      print "NO breeding site found: adult dies"
+;      die
+;    ]
   ]
 end
 
-to add-food
-  ask patches with [pcolor != blue] [
-      set food (food + 1)
-  ]
-end
+;to decay-food
+;  ask patches with [pcolor != blue] [
+;    set food (food * 0.5)
+;  ]
+;end
+
+;to add-food
+;  ask patches with [pcolor != blue] [
+;      set food (food + 1)
+;  ]
+;end
 
 to move-adults
   ; move to nearest patch in a random direction
@@ -127,13 +222,13 @@ to move-adults
   ]
 end
 
-to feed-larvae
-  ask larvae [
-    ifelse food >= 0.5
-      [ set food food - 0.5 ]
-      [ die ]
-  ]
-end
+;to feed-larvae
+;  ask larvae [
+;    ifelse food >= 0.5
+;      [ set food food - 0.5 ]
+;      [ die ]
+;  ]
+;end
 
 to lay-eggs
   ; each adult female lays 60 eggs
@@ -145,16 +240,16 @@ to lay-eggs
   ]
 end
 
-to colorcode-patches
-  ask patches with [pcolor != blue][
-    if food >= 0 and food < 0.5 [
-      set pcolor green
-    ]
-    if food >= 0.5 [
-      set pcolor orange
-    ]
-  ]
-end
+;to colorcode-patches
+;  ask patches with [pcolor != blue][
+;    if food >= 0 and food < 0.5 [
+;      set pcolor green
+;    ]
+;    if food >= 0.5 [
+;      set pcolor orange
+;    ]
+;  ]
+;end
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
@@ -367,6 +462,89 @@ FECUNDITY
 NIL
 HORIZONTAL
 
+SLIDER
+6
+211
+204
+244
+MAX_FEEDING_FLIGHTS
+MAX_FEEDING_FLIGHTS
+0
+6
+4.0
+1
+1
+NIL
+HORIZONTAL
+
+BUTTON
+7
+254
+70
+287
+test
+test
+NIL
+1
+T
+OBSERVER
+NIL
+NIL
+NIL
+NIL
+1
+
+BUTTON
+6
+329
+162
+362
+simulate-typhoon
+simulate-typhoon
+NIL
+1
+T
+OBSERVER
+NIL
+NIL
+NIL
+NIL
+1
+
+BUTTON
+6
+367
+196
+400
+simulate-land-clearing
+simulate-land-clearing
+NIL
+1
+T
+OBSERVER
+NIL
+NIL
+NIL
+NIL
+1
+
+BUTTON
+6
+292
+150
+325
+initiate-invasion
+initiate-invasion
+NIL
+1
+T
+OBSERVER
+NIL
+NIL
+NIL
+NIL
+1
+
 @#$#@#$#@
 # MY NOTES
 
@@ -393,6 +571,26 @@ I hope that the model ouput will provide evidence to support my hypothesis.
 ## SPATIAL SCALE
 
 Each patch is one hectare (100m x 100m). The area of the island is 709 ha (7.09 km2).
+
+## BREEDING SITES
+
+A **breeding_site** is an aggregated volume of decaying vegetation large enough to support larval development (egg to pupa) of at least one CRB. Each **breeding_site** has properties which include:
+
+* **site_type:** The model uses two types of breeding_sites: **'greenwaste'** and **'dead standing coconut'**
+* **volume:** current breeding site volume in liters
+* **food_quality:** the number of CRB that can develop from egg to pupa by eating one liter of the breeding site material.
+* **decay_rate:** the proportion of larval food in the breeding site which is removed by normal decay during each tick
+* **carrying_capacity:** the number of CRB that can develop from egg to pupa by eating all of the breeding site material (Calculated by multiplication of volume by food_quality)
+
+## ADULT BEHAVIOR
+
+<pre>
+for each adult_feeding_event in MAX_ADULT_FEEDING_EVENTS:
+  choose a coconut palm within MAX_FLIGHT_DISTANCE at random, fly to it and bore hole
+  choose a breeding site within MAX_FLIGHT_DISTANCE at random, fly to it 
+  if female:
+    lay CLUTCH_SIZE eggs
+</pre>
 
 ## SOURCES FOR PARAMETERS USED IN THIS MODEL
 
