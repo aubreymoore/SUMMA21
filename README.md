@@ -11,13 +11,14 @@ Jupyter notebooks can be run interactively on Binder [![Binder](https://mybinder
 # Lectures
 
 ## How I got interested in modeling population dynamics (0.5h)
+
 I first got interested in population dynamics models way back in the late 70s when I used a programmable calculator to play with the Lotka-Volterra model. Results from a simulated pesticide application were totally unexpected yet informative.
 
 **Resources**
 
-* Lecture slides: [How I got interested in modeling population dynamics](https://aubreymoore.github.io/SUMMA21/reveal.js/my_interest_in_modeling.html) (html; reveal.js)
-* [Lotka-Volterra Model](https://aubreymoore.github.io/SUMMA21/Lotka-Volterra-Model.html)  (html; Jupyter notebook; Python)
-* [Interactive Version of the Lotka-Voltera Model](https://mybinder.org/v2/gh/aubreymoore/SUMMA21/HEAD)  (Jupyter Notebook; Python; Binder)
+* [How I got interested in modeling population dynamics [HTML slides]](https://aubreymoore.github.io/SUMMA21/reveal.js/my_interest_in_modeling.html)
+* [Lotka-Volterra Model [Jupyter notebook]](https://aubreymoore.github.io/SUMMA21/Lotka-Volterra-Model.ipynb)
+* [Interactive Version of the Lotka-Voltera Model](https://mybinder.org/v2/gh/aubreymoore/SUMMA21/HEAD)
   * EXPERIMENTAL: Click on the link above; wait for the Binder server to spin up; click on **Lotka-Volterra-Model.ipynb**. 
 
 ## Coconut Rhinoceros Beetle Biology (1h)
