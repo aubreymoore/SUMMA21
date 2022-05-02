@@ -19,6 +19,67 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{abidin_population_2014}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ae24faaba1bd1ad8f4484dd70b76e8a0}{%
+           family={Abidin},
+           familyi={A\bibinitperiod},
+           given={Mohd\bibnamedelimb Rizuan\bibnamedelima Zainal},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85d6a3b9fdf09caa17346ebdc569f100}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Abu\bibnamedelima Hassan},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45cedf2457c5dc909c66bb866608fcd1}{%
+           family={Salim},
+           familyi={S\bibinitperiod},
+           given={Hasber},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02e088fb1f5f9fa111e5452e1f9b9031}{%
+           family={Hamid},
+           familyi={H\bibinitperiod},
+           given={Noor\bibnamedelima Hisham},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7967746637eeb71ee1a1912d187d2bb3}
+      \strng{fullhash}{b5b1e90753d495b3ffe73f249576f37e}
+      \strng{bibnamehash}{b5b1e90753d495b3ffe73f249576f37e}
+      \strng{authorbibnamehash}{b5b1e90753d495b3ffe73f249576f37e}
+      \strng{authornamehash}{7967746637eeb71ee1a1912d187d2bb3}
+      \strng{authorfullhash}{b5b1e90753d495b3ffe73f249576f37e}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Oil Palm Research}
+      \field{number}{2}
+      \field{title}{Population Dynamics of {{Oryctus}} Rhinoceros in Decomposing Oil Palm Trunks in Areas Practising Zero Burning and Partial Burning}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{volume}{26}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{140\bibrangedash 145}
+      \range{pages}{6}
+      \verb{file}
+      \verb /home/aubrey/Zotero/storage/H8UFZSYQ/joprv26jun2014-rizuan1.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://jopr.mpob.gov.my/wp-content/uploads/2014/06/joprv26jun2014-rizuan1.pdf
+      \endverb
+      \verb{url}
+      \verb http://jopr.mpob.gov.my/wp-content/uploads/2014/06/joprv26jun2014-rizuan1.pdf
+      \endverb
+    \endentry
     \entry{bedford_biology_1980}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=243c5bc6be07f394685772ad4c2bce47}{%
@@ -344,6 +405,45 @@
       \endverb
       \verb{url}
       \verb http://www.guaminsects.net/CRB/docs/VanderMeer1986.pdf
+      \endverb
+    \endentry
+    \entry{vander_meer_indirect_1975}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=956ed9f03c317a96a1db69568a42dda2}{%
+           family={Vander\bibnamedelima Meer},
+           familyi={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Robert\bibnamedelima K},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b435ef479fc48d4f54b7fc02f84e22f8}{%
+           family={Mclean},
+           familyi={M\bibinitperiod},
+           given={J\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9fadccef78ea66e7f60ad0d310fa71f7}
+      \strng{fullhash}{9fadccef78ea66e7f60ad0d310fa71f7}
+      \strng{bibnamehash}{9fadccef78ea66e7f60ad0d310fa71f7}
+      \strng{authorbibnamehash}{9fadccef78ea66e7f60ad0d310fa71f7}
+      \strng{authornamehash}{9fadccef78ea66e7f60ad0d310fa71f7}
+      \strng{authorfullhash}{9fadccef78ea66e7f60ad0d310fa71f7}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of the Entomological Society of America}
+      \field{number}{5}
+      \field{title}{Indirect {{Methods}} of {{Determining}} the {{Emergent Weight}} of {{Oryctes}} Rhinoceros ({{L}}.)}
+      \field{volume}{68}
+      \field{year}{1975}
+      \field{dateera}{ce}
+      \field{pages}{867\bibrangedash 868}
+      \range{pages}{2}
+      \verb{file}
+      \verb /home/aubrey/Zotero/storage/4ZBIADU5/Vander Meer, Mclean - 1975 - Indirect Methods of Determining the Emergent Weight of Oryctes rhinoceros (L.).pdf
       \endverb
     \endentry
   \enddatalist

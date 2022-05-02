@@ -2183,23 +2183,28 @@
     <bcf:datasource type="file" datatype="bibtex">../CRB.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">bedford_biology_1980</bcf:citekey>
-    <bcf:citekey order="2">pallipparambil_new_2015</bcf:citekey>
-    <bcf:citekey order="3">hochberg_model_1991</bcf:citekey>
-    <bcf:citekey order="4">hochberg_model_1991</bcf:citekey>
-    <bcf:citekey order="5">bedford_biology_1980</bcf:citekey>
-    <bcf:citekey order="6">pallipparambil_new_2015</bcf:citekey>
-    <bcf:citekey order="7">hinckley_ecology_1973</bcf:citekey>
-    <bcf:citekey order="8">gressitt_coconut_1953</bcf:citekey>
-    <bcf:citekey order="9">pallipparambil_new_2015</bcf:citekey>
-    <bcf:citekey order="10">hinckley_ecology_1973</bcf:citekey>
-    <bcf:citekey order="11">gressitt_coconut_1953</bcf:citekey>
-    <bcf:citekey order="12">catley_coconut_1969</bcf:citekey>
-    <bcf:citekey order="13">gressitt_coconut_1953</bcf:citekey>
-    <bcf:citekey order="14">pallipparambil_new_2015</bcf:citekey>
-    <bcf:citekey order="15">vander_meer_per_1987</bcf:citekey>
-    <bcf:citekey order="16">hinckley_ecology_1973</bcf:citekey>
-    <bcf:citekey order="17">donnegon_guams_2004</bcf:citekey>
+    <bcf:citekey order="3">bedford_biology_1980</bcf:citekey>
+    <bcf:citekey order="4">pallipparambil_new_2015</bcf:citekey>
+    <bcf:citekey order="5">hochberg_model_1991</bcf:citekey>
+    <bcf:citekey order="6">abidin_population_2014</bcf:citekey>
+    <bcf:citekey order="7">gressitt_coconut_1953</bcf:citekey>
+    <bcf:citekey order="8">vander_meer_indirect_1975</bcf:citekey>
+    <bcf:citekey order="9">gressitt_coconut_1953</bcf:citekey>
+    <bcf:citekey order="10">catley_coconut_1969</bcf:citekey>
+    <bcf:citekey order="11">hochberg_model_1991</bcf:citekey>
+    <bcf:citekey order="12">bedford_biology_1980</bcf:citekey>
+    <bcf:citekey order="13">pallipparambil_new_2015</bcf:citekey>
+    <bcf:citekey order="14">hinckley_ecology_1973</bcf:citekey>
+    <bcf:citekey order="15">gressitt_coconut_1953</bcf:citekey>
+    <bcf:citekey order="16">pallipparambil_new_2015</bcf:citekey>
+    <bcf:citekey order="17">hinckley_ecology_1973</bcf:citekey>
+    <bcf:citekey order="18">gressitt_coconut_1953</bcf:citekey>
+    <bcf:citekey order="19">catley_coconut_1969</bcf:citekey>
+    <bcf:citekey order="20">gressitt_coconut_1953</bcf:citekey>
+    <bcf:citekey order="21">pallipparambil_new_2015</bcf:citekey>
+    <bcf:citekey order="22">vander_meer_per_1987</bcf:citekey>
+    <bcf:citekey order="23">hinckley_ecology_1973</bcf:citekey>
+    <bcf:citekey order="24">donnegon_guams_2004</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

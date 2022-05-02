@@ -1,28 +1,42 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Parameters used in the Hochberg and Waage model}{3}{section.1}%
+\contentsline {section}{\numberline {1}Population structure}{3}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Life cycle}{4}{section.2}%
+\contentsline {subsection}{\numberline {1.1}Table from \cite {abidin_population_2014}}{3}{subsection.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Life table data}{4}{section.3}%
+\contentsline {subsection}{\numberline {1.2}Table from \cite {gressitt_coconut_1953}}{4}{subsection.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Life span and generation time}{5}{section.4}%
+\contentsline {section}{\numberline {2}Coconut rhinoceros beetle (CRB) biology}{4}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Larval food conversion}{5}{section.5}%
+\contentsline {subsection}{\numberline {2.1}Life cycle and feeding behavior}{5}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Fecundity}{5}{section.6}%
+\contentsline {subsection}{\numberline {2.2}Invasion history}{6}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Sex ratio}{6}{section.7}%
+\contentsline {subsection}{\numberline {2.3}Eradication programs}{6}{subsection.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Flight distances}{6}{section.8}%
+\contentsline {section}{\numberline {3}Parameters used in the Hochberg and Waage model}{7}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Number of adult feeding events (=attacks)}{7}{section.9}%
+\contentsline {section}{\numberline {4}Life cycle}{8}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Probability of a palm dying as the result of CRB attacks}{8}{section.10}%
+\contentsline {section}{\numberline {5}Life table data}{9}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}Detection level for economic damage}{9}{section.11}%
+\contentsline {section}{\numberline {6}Life span and generation time}{10}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12}Density of coconut palms on Guam}{9}{section.12}%
+\contentsline {section}{\numberline {7}Larval food conversion}{10}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13}References}{10}{section.13}%
+\contentsline {section}{\numberline {8}Fecundity}{10}{section.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Sex ratio}{11}{section.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10}Flight distances}{11}{section.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11}Number of adult feeding events (=attacks)}{12}{section.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12}Probability of a palm dying as the result of CRB attacks}{13}{section.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {13}Detection level for economic damage}{14}{section.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14}Density of coconut palms on Guam}{14}{section.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {15}References}{15}{section.15}%
